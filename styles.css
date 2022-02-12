@@ -1,0 +1,143 @@
+/* 16px = 100% = 1em */
+
+.top-container {
+  background-color: #dbe6db;
+  position: relative;
+  padding-top: 100px;
+}
+.mid-container {
+  margin: 40px 0;
+  margin-bottom: 80px;
+}
+.bot-container {
+  background-color: #dbe6db;
+  padding: 25px 0 20px;
+}
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+hr {
+  border-color: rgb(210, 218, 203);
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 4px;
+  width: 3%;
+}
+h1 {
+  line-height: 1;
+  font-size: 5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+.top-cloud {
+  border-radius: 50%;
+  opacity: 0.3;
+  width: 180px;
+  height: auto;
+  color: white;
+  position: absolute;
+  right: 280px;
+  top: 20px;
+}
+
+.bottom-cloud {
+  border-radius: 50%;
+  opacity: 0.3;
+  width: 180px;
+  height: auto;
+  position: absolute;
+  left: 200px;
+}
+
+.me_Prof {
+  width: 125px;
+  border-radius: 50%;
+}
+.skill-row {
+  width: 55%;
+  margin: 60px auto 60px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.probsolv {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  bottom: 25px;
+}
+.desgn {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  position: relative;
+  bottom: 10px;
+}
+#design-text {
+  padding-left: 70px;
+}
+.intro {
+  line-height: 1.5;
+  width: 30%;
+  margin: auto;
+  padding-bottom: 10px;
+}
+.contact-mess {
+  margin: 30px auto 50px;
+}
+.deve {
+  margin: 30px auto 30px;
+}
+a {
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #313552;
+}
+.copyright {
+  font-size: 0.75rem;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0;
+}
+.btn {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  background: #66bfbf;
+  padding: 8px 16px 7px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #afccaf;
+  background-image: -webkit-linear-gradient(top, #afccaf, #afccaf);
+  background-image: -moz-linear-gradient(top, #afccaf, #afccaf);
+  background-image: -ms-linear-gradient(top, #afccaf, #afccaf);
+  background-image: -o-linear-gradient(top, #afccaf, #afccaf);
+  background-image: linear-gradient(to bottom, #afccaf, #afccaf);
+  text-decoration: none;
+}
