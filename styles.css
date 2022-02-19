@@ -1,7 +1,7 @@
 /* 16px = 100% = 1em */
 
 .top-container {
-  background-color: #dbe6db;
+  background-color: #e0ebe8;
   position: relative;
   padding-top: 100px;
 }
@@ -29,7 +29,7 @@ hr {
 h1 {
   line-height: 1;
   font-size: 5rem;
-  margin: 50px auto 0 auto;
+  margin: 89px auto 0 auto;
   font-family: "Sacramento", cursive;
   color: #66bfbf;
 }
@@ -52,8 +52,8 @@ h3 {
   height: auto;
   color: white;
   position: absolute;
-  right: 280px;
-  top: 20px;
+  right: 168px;
+  top: 168px;
 }
 
 .bottom-cloud {
@@ -62,11 +62,57 @@ h3 {
   width: 180px;
   height: auto;
   position: absolute;
-  left: 200px;
+  left: 205px;
+  bottom: 368px;
+}
+.top-container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  margin: 39px auto;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgb(6 8 8 / 10%);
+  opacity: 0.97;
+  transition: all 0.8s;
+  overflow: hidden;
+}
+.topnav {
+  padding: 56px 16px;
+}
+.topnav .prof img {
+  width: 67px;
+  border-radius: 50%;
+  position: absolute;
+  top: 32px;
+  left: 142px;
+}
+.hovr {
+  margin-left: 700px;
+}
+.topnav .hovr a {
+  color: #66bfbf;
+  position: relative;
+  padding: 4px 3px;
+  text-decoration: none;
+  font-size: 110%;
+}
+.topnav hovr a {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial,
+    "Lucida Grande", sans-serif;
+  color: #21564b;
+}
+.topnav .hovr a:hover {
+  color: black;
+}
+.topnav .hovr a.active {
+  color: black;
 }
 
 .me_Prof {
-  box-shadow: 0 4px 30px hsl(0deg 0% 29% / 50%);
   width: 137px;
   border-radius: 50%;
 }
@@ -117,8 +163,12 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-in-out;
 }
-a:hover {
+.bot-container a:hover {
   color: #313552;
+}
+.mount {
+  margin-bottom: -18px;
+  width: 60%;
 }
 .copyright {
   font-size: 0.75rem;
